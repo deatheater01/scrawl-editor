@@ -1,26 +1,5 @@
 # scrawl-editor
-INTRODUCTION TO xv6
- 
-The job of an operating system is to share a computer among multiple programs and to provide a more useful set of services than what the hardware alone supports. The operating system manages the low-level hardware, so that, for example, a word processor need not concern itself with which video card is being used. It also multiplexes the hardware, allowing many programs to share the computer and run (or appear to run) at the same time. Finally, operating systems provide controlled ways for programs to interact, so that they can share data or work together.
- 
-The operating system, xv6, provides the basic interfaces introduced by Ken Thompson and Dennis Ritchie’s Unix operating system, as well as mimicking Unix’s internal design.  
- 
-The latest xv6 source is available via:
-git clone git://github.com/mit-pdos/xv6-public.git
- 
-Nowadays xv6 can be run using the open-source emulator qemu.
- 
-User programs can be added to xv6 by adding the source code into its directory and modifying its MakeFile.
- 
-It has originally 21 system calls, it also allows the addition of user defined system calls.
- 
-It supports a pre-emptive process scheduler. Round robin scheduling has been implemented in xv6
- 
- 
- 
-INTRODUCTION TO SCRAWL
- 
- 
+
 Xv6 is an educational operating system with very basic functionalities. One of the major requirements of any operating system is a text editor and we found that it doesn’t have one!!
 So, we have developed an editor to be integrated into xv6.
  
