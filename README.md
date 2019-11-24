@@ -36,4 +36,6 @@ Smart Save:
 ​​Scrawl provides the functionality to save a user file permanently so that the work done by the user is not lost. Even if the user initiates the quit sequence Scrawl smartly checks whether the file has been saved or not. If it has not been saved then the user must press quit thrice in order to make sure that quitting without saving a file was not an accident. 
  
  
+ Note: The editor was made with the help of an online tutorial // https://viewsourcecode.org/snaptoken/kilo/
+ 
  
